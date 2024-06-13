@@ -1,0 +1,373 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Background2</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .home {
+            width: 100%;
+            height: 100vh;
+            background-image: url(/images/home.png);
+            background-repeat: no-repeat;
+            background-size: 100% auto;
+            display: grid;
+            text-align: center;
+            place-items: center;
+            background-attachment: fixed;
+        }
+
+        .home ul {
+            padding-left: 78px;
+            float: right;
+            padding-bottom: 40px;
+            font-size: 20px;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            font-style: bold;
+
+        }
+
+        .home a {
+            text-decoration: none;
+            padding: 3px;
+
+
+        }
+
+        a:hover {
+            color: black;
+
+        }
+
+        a:hover {
+            color: #164863;
+            text-decoration: underline;
+        }
+
+
+
+        .home .btn-login {
+            background-color: firebrick;
+            color: white;
+            border-radius: 0.5rem;
+            padding: 10px;
+        }
+
+        .btn-login:hover {
+            background-color: aqua;
+            color: black;
+
+        }
+
+        h1 {
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-style: bold;
+            font-size: 30px;
+            text-shadow: 3px 3px 3px whitesmoke;
+        }
+
+        .about {
+            width: 100%;
+            height: 60vh;
+            background-image: url(/images/pexels-pixabay-414660.jpg);
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+            text-align: center;
+            display: grid;
+            place-items: center;
+            border-radius: 5rem;
+            margin-top: 20px;
+
+
+        }
+
+        p {
+            padding: 50px;
+            font-size: 20px;
+            line-height: 32px;
+            text-align: center;
+        }
+
+        .about h1 {
+            color: #164863;
+        }
+
+        .skill {
+            width: 100%;
+            height: 140vh;
+            /* background-image: url(/images/pexels-pixabay-414660.jpg); */
+            background-size: 100% auto;
+            background-repeat: no-repeat;
+            background-color: #164863;
+            border-radius: 2rem;
+            margin-top: 20px;
+            padding-top: 20px;
+
+
+        }
+
+
+
+        .contact{
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            margin-top: 20px;
+
+        }
+        .card-2{
+            width: 400px;
+            height: 96vh;
+            background-color: aqua;
+            text-align: center;
+            padding-top: 20px;
+            border-radius: 2rem;
+            box-shadow: 2px 2px 2px #2C061F;
+
+
+        }
+        .card-2 label{
+           font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+           font-size: 20px;
+           font-style: bold;
+           text-shadow: 1px 1px 1px wheat;
+        }
+        .card-2 input{
+            height: 30px;
+            width: 300px;
+            border-radius: 2rem;
+            border-color: aqua;
+            padding-left: 10px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+        .card-2 textarea{
+            border-radius: 0.5rem;
+            border-color: aqua;
+            padding-left: 10px;
+            padding-right: 10px;
+            padding-top: 5px;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+        }
+
+        .footer{
+            margin-top: 20px;
+            background-color: skyblue;
+            width: 100%;
+            height: 30vh;
+        }
+        .foot-logo{
+            width: 170px;
+            height: 170px;
+        }
+
+  
+</style>
+</head>
+
+<body>
+    <header>
+
+
+        <section class="home" id="hm">
+            <img src="/images/Untitled design (1).png" alt="" width="230px" height="230px">
+            <nav>
+                
+
+                <div>
+                    <ul><a href="#" class="btn-login">Login</a></ul>
+                    <ul><a href="#">Contact</a></ul>
+                    <ul><a href="#sk">Skill</a></ul>
+                    <ul><a href="#ab">About</a></ul>
+                    <ul><a href="#hm">Home</a></ul>
+
+                    <h1 style="color:rgb(37, 31, 31);">WELCOME <span
+                            style="color: #2C061F;"><strong>METAWORLD..!</strong></span></h1>
+
+                </div>
+
+
+        </section>
+        </nav>
+    </header>
+
+
+    <main>
+        <section class="about" id="ab">
+            <div>
+                <h1>
+                    About
+                </h1>
+                <p>
+                    Greetings! I’m <strong><span style="color: #1B4242;">Het Katrodiya</span></strong>, a seasoned
+                    developer specializing in <strong><span style="color: #1B4242;">Frontend Developer</span></strong>
+                    based in Surat. currently i am studying in Bsc.IT from <strong><span style="color: #1B4242;">P P
+                            Savani University</span></strong>. With 2 years of hands-on experience in the field. I have
+                    honed my skills in crafting robust and efficient solutions for a variety of projects.
+                </p>
+            </div>
+        </section>
+
+
+        <section class="skill" id="sk">
+            <div>
+                <h1 style="text-align: center;color: aqua;text-shadow: 1px 1px 1px black;">Skill</h1>
+            </div>
+
+            <div class="container">
+                <div class="card">
+                    <img src="/images/ecommerce.jpg" alt="">
+                    <div class="contain">
+                        <h2>Ecommerce
+                        </h2>
+                        <a href="https://metamind.everything2know.com/" class="btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="/images/android.jpg" alt="">
+                    <div class="contain">
+                        <h2>Android developer
+
+                        </h2>
+                        <a href="https://metamind.everything2know.com/" class="btn">Read More</a>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <img src="/images/wordpress-581849_1280.webp" alt="">
+                    <div class="contain">
+                        <h2>WordPress Developer
+
+                        </h2>
+                        <a href="https://metamind.everything2know.com/" class="btn">Read More</a>
+                    </div>
+                </div>
+
+                <div class="card">
+                    <img src="/images/webdesign.jpg" alt="">
+                    <div class="contain">
+                        <h2>Web Design
+
+                        </h2>
+                        <a href="https://metamind.everything2know.com/" class="btn">Read More</a>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <img src="/images/management.jpeg" alt="">
+                    <div class="contain">
+                        <h2>Management
+
+                        </h2>
+                        <a href="https://metamind.everything2know.com/" class="btn">Read More</a>
+                    </div>
+                </div>
+
+
+                <div class="card">
+                    <img src="/images/designer.jpg" alt="">
+                    <div class="contain">
+                        <h2>Logo Designer
+
+                        </h2>
+                        <a href="https://metamind.everything2know.com/" class="btn">Read More</a>
+                    </div>
+                </div>
+
+
+
+
+            </div>
+
+        </section>
+
+        <section class="contact">
+
+
+            <form action="" class="card-2" >
+
+                <div>
+                    <label for="name">Name</label>
+                    <br>
+                    <input type="text" name="text"  required>
+                </div>
+                <br>
+                <div>
+                    <label for="email">Email</label>
+                    <br>
+                    <input type="email" name="email"  required>
+                </div>
+                <br>
+
+                <div>
+                    <label for="password">Password</label>
+                    <br>
+                    <input type="password" name="password" required>
+                </div>
+                <br>
+
+
+                <div>
+                    <label for="number">Phone No</label>
+                    <br>
+                    <input type="number" name="number" required>
+                </div>
+                <br>
+
+
+                <div>
+                    <label for="feedback">Feedback</label>
+                    
+                    <br>
+                    <textarea name="msg" id="" cols="30" rows="10"></textarea>
+                </div>
+
+
+                    <a href="" class="btn">Submit</a>
+
+
+            </form>
+
+
+        </section>
+
+    </main>
+
+
+    <footer class="footer">
+
+        <div>
+            <img src="/images/Untitled design (1).png" alt="" class="foot-logo" style="float: right;">
+      
+        </div>
+      <div>
+        <pre style="padding: 20px;font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;">
+            Email : hetk999@gmail.com
+
+            phone : +91 9737085867
+
+            More-info : <a href="https://metamind.everything2know.com/">https://metamind.everything2know.com/</a>
+
+            
+        </pre>
+      </div>
+
+    </footer>
+
+
+
+</body>
+
+</html>
